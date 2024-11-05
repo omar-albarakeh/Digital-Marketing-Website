@@ -182,9 +182,7 @@ ul {
     z-index: 10;
     opacity: 0;
     animation: image-appear 0.5s linear forwards; 
-    animation-delay: 5.5s; /* Delayed until the block animation is complete */
-}
-
+    animation-delay: 5.5s; }
 @keyframes image-appear {
     0% {
         opacity: 0;
