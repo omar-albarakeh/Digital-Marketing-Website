@@ -22,7 +22,7 @@ ul {
     left: 0;
     width: 0;
     height: 100%;
-    background-color: #beb19e;
+    background-color: #0e8094;
     z-index: -1;
 }
 
@@ -79,7 +79,7 @@ ul {
     width: 30px;
     height: 3px;
     margin: 5px auto;
-    background-color: #990404;
+    background-color: #0e4695;
     transition: all 0.3s ease;
 }
 
@@ -109,7 +109,7 @@ ul {
 .menu-items a {
     text-decoration: none;
     font-size: 2rem;
-    color: #333;
+    color: #179cb9;
 }
 .media {
     position: absolute;
@@ -134,7 +134,7 @@ ul {
     font-weight: 700;
     letter-spacing: 4px;
     text-decoration: none;
-    color: #000;
+    color: #0d646e;
     transition: color 0.3s ease;
 }
 
