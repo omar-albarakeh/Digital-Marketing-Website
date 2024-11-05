@@ -1,28 +1,57 @@
+
+:root {
+    --primary-color: #207293;
+    --hover-color: rgb(20, 28, 49);
+    --font-size-large: 22px;
+    --font-weight-bold: 700;
+    --padding-horizontal: 20px;
+    --logo-width: 140px;
+}
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
 nav {
-  background-color: #207293;
-  color: #fff;
-  padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 var(--padding-horizontal);
 }
 
-nav ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  justify-content: center;
+.logo {
+    display: flex;
+    align-items: center;
 }
 
-nav li {
-  margin: 0 10px;
+.logo img {
+    width: var(--logo-width);
+    margin-left: 60px;
 }
 
-nav a {
-  text-decoration: none;
-  color: #fff;
-  font-weight: bold;
-  transition: color 0.3s ease-in-out;
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 20px;
 }
 
-nav a:hover {
-  color: rgb(47, 31, 31);
+.nav-links a {
+    color: var(--primary-color);
+    text-decoration: none;
+    font-size: var(--font-size-large);
+    font-weight: var(--font-weight-bold);
+    transition: color 0.3s ease-in-out;
+}
+
+.nav-links a:hover {
+    color: var(--hover-color);
 }
