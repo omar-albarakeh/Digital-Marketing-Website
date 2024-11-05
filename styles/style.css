@@ -1,13 +1,14 @@
-
+/* Universal Variables for easy customization */
 :root {
     --primary-color: #207293;
     --hover-color: rgb(20, 28, 49);
     --font-size-large: 22px;
     --font-weight-bold: 700;
     --padding-horizontal: 20px;
-    --logo-width: 140px;
+    --logo-width: 200px;
 }
 
+/* Reset & Global Styles */
 *,
 *::before,
 *::after {
@@ -21,12 +22,15 @@ body {
     color: #333;
 }
 
+/* Navigation Styles */
 nav {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     padding: 0 var(--padding-horizontal);
+    gap: 40px; 
 }
+
 
 .logo {
     display: flex;
@@ -38,12 +42,14 @@ nav {
     margin-left: 60px;
 }
 
+/* Centering nav-links */
 .nav-links {
     display: flex;
     list-style: none;
     gap: 20px;
 }
 
+/* Link Styles */
 .nav-links a {
     color: var(--primary-color);
     text-decoration: none;
