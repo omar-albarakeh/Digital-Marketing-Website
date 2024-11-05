@@ -141,3 +141,43 @@ ul {
 .media ul li a:hover {
     color: #29adc5;
 }
+
+.text{
+    position: absolute;
+    top: 40%;
+    left: 51.1%;
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+    width: 1000px;
+}
+
+.text h1{
+    font-size: 80px;
+    font-weight: 900;
+    letter-spacing: 4px;
+    position: relative;
+    overflow: hidden;
+    height: 100px;
+    width: 100%;
+}
+
+.text h1 label{
+    color: #fff;
+}
+
+.text h1 .text-bar{
+    position: absolute;
+}
+
+.text p{
+    font-size: 22px;
+    letter-spacing: 5px;
+    font-weight: lighter;
+    position: relative;
+    height: 40px;
+    width: 100%;
+}
+
+.text p .text-bar{
+    position: absolute;
+}
