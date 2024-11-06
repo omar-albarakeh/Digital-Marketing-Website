@@ -3,7 +3,6 @@ document.addEventListener('DOMContentLoaded', function () {
 
       const blocks = document.querySelectorAll(".sblock");
 
-      // Generate random starting positions for each word
       blocks.forEach((block, index) => {
         const randomX = Math.random() * window.innerWidth - block.offsetWidth / 2;
         const randomY = Math.random() * window.innerHeight - block.offsetHeight / 2;
@@ -17,6 +16,7 @@ document.addEventListener('DOMContentLoaded', function () {
           duration: 1,
           x: targetX,
           y: targetY,
+          start: "botom 100%",
           scale: ["1.8", "1.4", "1.6",][index],
           ease: "expo.inOut",
         });
